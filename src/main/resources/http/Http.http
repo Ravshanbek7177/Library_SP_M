@@ -1,0 +1,27 @@
+### Book create
+POST localhost:8080/book/create
+Content-Type: application/json
+
+{
+  "title": "Yana kelgan baxt ",
+  "author": "O'ktam Usmon",
+  "publishYear": "1978-yil"
+}
+
+
+### Book list
+GET localhost:8080/book/list
+Content-Type: application/json
+
+### Book list
+GET localhost:8080/book/list1
+Content-Type: application/json
+
+### Book listID
+GET localhost:8080/book/list/1
+Content-Type: application/json
+
+
+### Book Delete
+DELETE localhost:8080/book/delete1/
+

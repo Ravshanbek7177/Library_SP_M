@@ -11,7 +11,9 @@
     <property name="show_sql">true</property>
 
     <!-- MAPPINGS -->
-    <mapping class="com.example.library_uy.Entity."/>
+    <mapping class="com.example.library_uy.Entity.Book"/>
+    <mapping class="com.example.library_uy.Entity.Student"/>
+    <mapping class="com.example.library_uy.Entity.StudentBook"/>
 
 </session-factory>
 </hibernate-configuration>

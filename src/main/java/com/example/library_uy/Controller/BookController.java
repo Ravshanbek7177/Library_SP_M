@@ -2,14 +2,8 @@ package com.example.library_uy.Controller;
 
 import com.example.library_uy.Dto.BookDto;
 import com.example.library_uy.Service.BookService;
-import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping(value = "/book")
